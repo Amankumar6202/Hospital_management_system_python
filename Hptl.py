@@ -46,7 +46,7 @@ class HospitalManagementSystem:
         name = input("Enter Name: ")
         specialization = input("Enter Specialization: ")
         self.doctors.append(Doctor(did, name, specialization))
-        print("✅ Doctor added successfully!")
+        print(" Doctor added successfully!")
 
     # Display all patients
     def show_patients(self):
@@ -116,3 +116,4 @@ def main():
     while True:
         print("\n===== Hospital Management System =====")
         print("1. Add Patient")
+
